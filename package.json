@@ -1,0 +1,16 @@
+{
+  "name": "gamebackend",
+  "version": "1.0.0",
+  "description": "This is the backend server for exploration game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "GoldenStar",
+  "license": "MIT",
+  "dependencies": {
+    "enet": "^0.2.9",
+    "express": "^5.1.0"
+  }
+}
