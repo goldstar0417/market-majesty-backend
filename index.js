@@ -6,7 +6,7 @@ const enet = require('enet');
 const app = express();
 const PORT = config.port || 3000;
 const ENET_PORT = 9000;
-const ENET_HOST = "127.0.0.1";
+const ENET_HOST = "77.90.153.147";
 
 let players = []
 let connectedPeers = [];
